@@ -27,7 +27,17 @@
             <asp:TextBox runat="server" id="txtState" MaxLength ="2"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" id="reqState" controltovalidate="txtState" errormessage="Please enter your State!"  Text ="*"/>
 </span>
-        
+        </div>
+        <div class="row">
+        <span class="col-lg-2">
+            City
+        </span>
+        <span class="col-lg-10">
+            <asp:TextBox runat="server" id="txtCity" MaxLength ="2"></asp:TextBox>
+            <asp:RequiredFieldValidator runat="server" id="reCity" controltovalidate="txtCity" errormessage="Please enter your City!"  Text ="*"/>
+</span>
+        </div>
+         <br>
         <div class="row">
         <span class="col-lg-2">
            
