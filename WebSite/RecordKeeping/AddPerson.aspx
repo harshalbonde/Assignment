@@ -26,7 +26,7 @@
         <span class="col-lg-10">
             <asp:TextBox runat="server" id="txtState" MaxLength ="2"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" id="reqState" controltovalidate="txtState" errormessage="Please enter your State!"  Text ="*"/>
-</span>
+        </span>
         </div>
         <div class="row">
         <span class="col-lg-2">
@@ -49,6 +49,7 @@
                        ShowSummary="false" />
 </span>
     </div>
+    <div>
         <asp:Label runat="server" id="lblPerson"></asp:Label>
     </div>
 </asp:Content>

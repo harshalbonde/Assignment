@@ -193,6 +193,7 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>RecordKeepingData.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <Content Include="JavaScript.aspx" />
     <Content Include="RecordKeepingData.edmx.diagram">
       <DependentUpon>RecordKeepingData.edmx</DependentUpon>
     </Content>
@@ -406,6 +407,13 @@
     </Compile>
     <Compile Include="InsertPerson_Result.cs">
       <DependentUpon>RecordKeepingData.tt</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScript.aspx.cs">
+      <DependentUpon>JavaScript.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScript.aspx.designer.cs">
+      <DependentUpon>JavaScript.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Person.aspx.cs">
